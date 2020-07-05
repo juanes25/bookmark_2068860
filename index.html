@@ -2,96 +2,110 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/estilos.css">
   <title>Frontend Mentor | Bookmark landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-</head>
 <body>
-  <img src="images/logo-bookmark.svg" alt="">
-<div>
-  <button>Features</button>
-  <button>Pricing</button>
-  <button>Contact</button>
-  <button>Login</button>
-</div>
- <div>
-  <h1>A Simple Bookmark Manager</h1>
+  <section class="pagina" >
+    <!--inicio-->
+    <article class="inicio">
+      <menu class="menu">
+        <img src="images/logo-bookmark.svg" alt="logo-bookmark">
+        <div>
+          <a class="pestañas" href="#">FEATURES</a>
+          <a class="pestañas" href="#"> PRICING</a>
+          <a class="pestañas" href="#">CONTACT</a>
+          <a class="pestaña1" href="#">LOGIN</a>
+        </div>
+      </menu>
+      <div class="filas parte1">
+        <div class="columnas">
+          <h1 class="titulo1">A Simple Bookmark <br> Manager</h1>
+          <p class="parrafo"> A clean and simple interface to organize your favourite <br> websites. Open a new browser tab and see your sites load <br> instantly. Try it for free.</p>
+          <div class="filas">
+            <button class="botones"> Get it on Chrome</button>
+            <button class="botones2">Get it on Firefox</button>
+          </div>
+        </div>
+        <div class="imagen1" >
+          <img src="images/illustration-hero.svg" alt="illustration-hero">
+        </div>
+      </div>    
+    </article>
+    <!--inicio-->
 
-  <p> A clean and simple interface to organize your favourite websites. Open a new 
-    browser tab and see your sites load instantly. Try it for free.</p>
-    <img src="images/illustration-hero.svg" alt="">
- </div>
+    <!--features-->
+    <section class="features" >
+      <div class="caja">      
+        <h3 class="titulo"> Features</h3>
+        <p class="parrafo">Our aim is to make it quick and easy for you to access your <br> favourite websites. Your bookmarks sync between your devices <br> so you can access them on the go.</p>
+        <div class="caja1">
+          <a class="pestañas" href="#"> Simple Bookmarking</a>
+          <a class="pestañas" href="#">Speedy Searching</a>
+          <a class="pestañas" href="#"> Easy Sharing</a>
+          <div class="linea"></div>
+        </div>
+      </div>
+      <div class="filas caja2">
+        <img src="images/illustration-features-tab-1.svg" alt="illustration-features-tab-1">
+        <div class="caja3">
+          <h3 class="titulo"> Bookmark in one click</h3>
+          <p class="parrafo"> Organize your bookmarks however you like. Our <br> simple drag-and-drop interface gives you complete <br> control over how you manage your favourite sites.</p>
+          <button class="botones">More Info</button>
+        </div>
+      </div> 
+    </section>
+    <!--features-->
 
-<button>Get it on Chrome</button>
-<button>Get it on Firefox</button>
+    <!--download-->
+    <section class="download">
+      <div class="caja" >
+        <h3 class="titulo">Download the extension</h3>
+        <p class="parrafo"> We’ve got more browsers in the pipeline. Please do let us know if <br> you’ve got a favourite you’d like us to prioritize.</p>
+      </div>
+      <section class="">
+        <div class="tarjetas filas">
+          <div class="tarjeta1 columnas">
+            <aside class="logos"> <img src="images/logo-chrome.svg" alt="logo-chrome"></aside>
+            <article  class="contenido columnas">
+              <h6 class="subtitulo">add to chrome</h6>
+              <p class="parrafo">minimum version 62</p>
+              <img src="images/bg-dots.svg" alt="bg-dots">
+              <button  class="botones">add & install Extension</button>
+            </article>
+          </div>
+          <div class="tarjeta2 columnas">
+            <aside class="logos"><img src="images/logo-firefox.svg" alt="logo-firefox"></aside>
+            <article  class="contenido columnas">
+              <h6 class="subtitulo">add to Firefox</h6>
+              <p class="parrafo">minimum version 55</p>
+              <img src="images/bg-dots.svg" alt="bg-dots">
+              <button class="botones">add & install Extension</button>
+            </article>
+          </div>
+          <div class="tarjeta3 columnas">
+            <aside class="logos"><img src="images/logo-opera.svg" alt="logo-opera"></aside>
+            <article class="contenido columnas">
+              <h6 class="subtitulo">add to opera</h6>
+              <p class="parrafo">minimum version 46</p>
+              <img src="images/bg-dots.svg" alt="bg-dots">
+              <button  class="botones">add & install Extension</button>
+            </article>
+          </div>
+        </div>
+      </section>
+    </section>
+  </section>
 
-  <h2>Features</h2>
-
-  Our aim is to make it quick and easy for you to access your favourite websites. 
-  Your bookmarks sync between your devices so you can access them on the go.
-<div>
-  <button>Simple Bookmarking</button>
-  <button>Speedy Searching</button>
-  <button>Easy Sharing</button>
-</div>
-  <div>
-    <h2>Bookmark in one click</h2>  
-
-    <img src="images/illustration-features-tab-1.svg" alt="">
-
-  <p>Organize your bookmarks however you like. Our simple drag-and-drop interface 
-    gives you complete control over how you manage your favourite sites.</p>
-
-  <button>More Info</button>
-  </div>
-
-  Intelligent search
-
-  Our powerful search feature will help you find saved sites in no time at all. 
-  No need to trawl through all of your bookmarks.
-
-  More Info
-
-  Share your bookmarks
-
-  Easily share your bookmarks and collections with others. Create a shareable 
-  link that you can send at the click of a button.
-
-  More Info
-
-  <h2>Download the extension</h2>  
-
-  We’ve got more browsers in the pipeline. Please do let us know if you’ve 
-  got a favourite you’d like us to prioritize.
-
-  <div> <img src="images/logo-chrome.svg" alt=""> Add to Chrome
-    Minimum version 62
-    Add & Install Extension
-    <img src="images/bg-dots.svg" alt="">
-  </div>
-<div> <img src="images/logo-firefox.svg" alt=""> Add to Firefox
-  Minimum version 55
-  Add & Install Extension
-<img src="images/bg-dots.svg" alt=""></div>
-<div> <img src="images/logo-opera.svg" alt=""> Add to Opera
-  Minimum version 46
-  Add & Install Extension
-<img src="images/bg-dots.svg" alt=""></div>
+  Frequently Asked Questions
   
+  Here are some of our FAQs. If you have any other questions you’d like 
+  answered please feel free to email us.
 
- 
-
-  <div>
-    <h2>Frequently Asked Questions</h2> 
-  
-  <p>Here are some of our FAQs. If you have any other questions you’d like 
-    answered please feel free to email us.</p>
-  </div>
   <!-- Question 1 -->
-  <button disabled="disabled">What is Bookmark? <img src="images/icon-arrow.svg" alt=""> </button> 
+  What is Bookmark?
 
   <!-- Answer 1 -->
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
@@ -125,7 +139,7 @@
 
   35,000+ already joined
 
-  <h2>Stay up-to-date with what we’re doing</h2> 
+  Stay up-to-date with what we’re doing
 
   Contact Us
 
