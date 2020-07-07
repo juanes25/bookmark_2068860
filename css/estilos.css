@@ -179,3 +179,13 @@ body{
     padding: 20px;
     margin-top: 5px;
 }
+.simple{
+    flex-basis: 35%;
+
+}
+.img1{
+    flex-basis: 45%;
+}
+.jaja{
+    margin: center;
+}
